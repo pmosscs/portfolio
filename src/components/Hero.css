@@ -1,0 +1,54 @@
+.hero-page {
+    height: calc(100vh - 55px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}
+
+.hero-info {
+    width: 50%;
+    text-align: right;
+    height: fit-content;
+}
+
+.hero-title {
+    width: 50%;
+    height: fit-content;
+}
+
+p {
+    color: #585858;
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 55px;
+    margin-bottom: 4px;
+}
+
+.arrow {
+    text-align: center;
+    position: relative;
+    top: -125px
+}
+
+.arrow * {
+    font-size: 22px;
+}
+
+.arrow p {
+    margin-bottom: 10px;
+}
