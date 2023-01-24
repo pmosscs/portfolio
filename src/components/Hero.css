@@ -1,5 +1,6 @@
 .hero-page {
     height: calc(100vh - 55px);
+    min-height: 525px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -47,8 +48,11 @@ h2 {
 
 .arrow * {
     font-size: 22px;
+    opacity: 75%;
 }
 
 .arrow p {
     margin-bottom: 10px;
 }
+
+/** add functionality to fade in and move arrow */

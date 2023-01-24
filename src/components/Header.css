@@ -4,11 +4,13 @@
     justify-content: space-between;
     padding: 0 80px;
     height: 55px;
+    background-color: white;
     align-items: center;
     /* make a 'scrolling' class making the shadow bigger when scrolling */
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     box-shadow: 0 -6px 5px 5px rgba(0,0,0,0.5);
     position: sticky; top: 0;
+    z-index: 999;
 }
 
 .header * {
