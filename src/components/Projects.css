@@ -1,6 +1,6 @@
 .project-wrapper {
   width: 100vw;
-  height: 1000px;
+  height: fit-content;
   display: flex;
   justify-content: center;
   position: relative;
@@ -9,7 +9,7 @@
 
 .middle-bar {
   width: 2px;
-  height: 100%;
+  min-height: 100%;
   background-color: #585858;
   
 }
@@ -45,10 +45,11 @@ img {
     margin-bottom: 10px;
 }
 
-.fitsnap, .omhf {
+.project {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .icons {
@@ -81,5 +82,5 @@ a {
 }
 
 .omhf {
-    margin-top: 300px;
+    margin-top: 275px;
 }
