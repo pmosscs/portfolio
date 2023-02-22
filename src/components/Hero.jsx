@@ -12,10 +12,10 @@ function Hero() {
         </div>
         <div className="hero-info">
           <p>
-            I love building and creating applications people love to use. <br />{" "}
-            I enjoy problem solving and learning new technologies and skills to
-            implement into my projects. <br /> Feel free to check out my project
-            demos or reach out to me via the links on my contact page.
+            I build and create applications that people love to use. I enjoy
+            problem solving and learning new technologies and skills to
+            implement into my projects. Feel free to check out my project demos
+            or reach out to me via the links on my contact page.
           </p>
         </div>
       </div>

@@ -5,6 +5,7 @@ import omhf from "../assets/omhf.png";
 import jrjob from "../assets/jrjob.png";
 import { BsYoutube } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { BiWorld } from "react-icons/bi";
 
 function Projects() {
   return (
@@ -49,16 +50,12 @@ function Projects() {
             <img src={jrjob} alt="fitsnap" />
           </div>
           <div className="icons">
-            <a
-              href="https://www.youtube.com/watch?v=OZAOSipTCvA"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/" target="_blank" rel="noopener noreferrer">
               {/* change these and make them unclickable */}
-              <BsYoutube className="grow" />
+              <BiWorld className="grow" />
             </a>
             <a
-              href="https://github.com/pmosscs/fitsnap"
+              href="https://github.com/pmosscs/jrjobhunt"
               target="_blank"
               rel="noopener noreferrer"
             >

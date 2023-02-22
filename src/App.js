@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<HomeScreen />} />
-        <Route to="/contact" element={<ContactScreen />} />
-        <Route to="/now" element={<NowScreen />} />
+        <Route path="/contact" element={<ContactScreen />} />
+        <Route path="/now" element={<NowScreen />} />
       </Routes>
     </div>
   );

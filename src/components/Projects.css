@@ -84,3 +84,28 @@ a {
 .omhf {
     margin-top: 275px;
 }
+
+.project h3 {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 965px) {
+  .project-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .middle-bar {
+    display: none;
+  }
+  .omhf {
+    margin-top: 0;
+  }
+  .left-side {
+    margin-bottom: 0px;
+  }
+  .right-side {
+    margin-top: 0px;
+  }
+ 
+}

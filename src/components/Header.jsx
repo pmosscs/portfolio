@@ -11,25 +11,30 @@ function Header() {
   const [headerActive, setHeaderActive] = useState(false);
 
   const clickBurger = () => {
-    console.log("burger clicked");
     setHeaderActive(!headerActive);
+  };
+
+  const linkClick = () => {
+    setHeaderActive(false);
   };
 
   return (
     <div className="header">
-      <p>Peyton Moss</p>
+      <Link onClick={linkClick} style={linkstyle} to="">
+        <p>Peyton Moss</p>
+      </Link>
 
       <nav>
         <div className={`navlinks ${headerActive ? "burger-active" : null}`}>
-          <Link style={linkstyle} to="">
+          <Link onClick={linkClick} style={linkstyle} to="">
             <p>Home</p>
           </Link>
           <div className={`header-bars`}></div>
-          <Link style={linkstyle} to="/contact">
+          <Link onClick={linkClick} style={linkstyle} to="/contact">
             <p>Contact</p>
           </Link>
           <div className={`header-bars`}></div>
-          <Link style={linkstyle} to="/now">
+          <Link onClick={linkClick} style={linkstyle} to="/now">
             <p>Now</p>
           </Link>
         </div>

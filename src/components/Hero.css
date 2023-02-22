@@ -56,3 +56,39 @@ h2 {
 }
 
 /** add functionality to fade in and move arrow */
+
+@media screen and (max-width: 100px) {
+    .arrow {
+        top: -75px;
+      }
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container {
+        flex-direction: column;
+       
+    }
+
+    .arrow {
+        top: 0;
+        margin-bottom: 50px;
+    }
+    .hero-page {
+        height: 200vh;
+        justify-content: start;
+        height: fit-content
+    }
+    .hero-title {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width: 100%;
+        
+    }
+    .hero-info {
+        text-align: center;
+        width: 100%;
+    }
+   
+
+}
+
