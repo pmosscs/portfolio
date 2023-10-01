@@ -8,7 +8,7 @@ function Hero() {
         <div className="hero-title">
           <p>Hello, I'm</p>
           <h2>Peyton Moss,</h2>
-          <p>a full-stack web developer</p>
+          <p>a software engineer</p>
         </div>
         <div className="hero-info">
           <p>
